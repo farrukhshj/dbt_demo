@@ -1,3 +1,3 @@
 {{ config(materialized='table') }}
 
-select * from cli_dataset.ext_customers
+select * from {{source('cli_dataset', 'ext_customers')}}

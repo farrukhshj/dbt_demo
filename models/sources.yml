@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: customers
+    database: project-8f68a7aa-f84e-4765-b7b
+    schema: cli_dataset
+    tables: 
+      - name: ext_customers
