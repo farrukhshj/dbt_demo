@@ -1,3 +1,3 @@
-{{ config(materialized='table') }}
+{{ config(materialized='table', schema='dbt_test') }}
 
-select * from {{source('cli_dataset', 'ext_customers')}}
+select * from cli_dataset.ext_customers
