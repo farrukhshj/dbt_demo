@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: app_customers
+    description: 'This table has customer information'
+    columns: 
+      - name: customer_id
+        description: 'Unique id for the customer'
+        tests: 
+          - unique
+          - not_null
+      - name: email
+        description: 'Email address of the customer'

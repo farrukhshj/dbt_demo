@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: app_customers_view
+    description: 'This view has customer information'
+    columns: 
+      - name: customer_id
+        description: 'Unique id for the customer'
+      - name: email
+        description: 'Email address of the customer'
