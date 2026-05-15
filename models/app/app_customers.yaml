@@ -1,0 +1,4 @@
+version: 2
+models:
+  - name: app_customers
+    description: 'This table has customer information'
