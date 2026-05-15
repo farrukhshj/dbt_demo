@@ -1,7 +1,7 @@
 version: 2
 models:
-  - name: app_customers
-    description: 'This table has customer information'
+  - name: app_customers_view
+    description: 'This view has customer information'
     columns: 
       - name: customer_id
         description: 'Unique id for the customer'
