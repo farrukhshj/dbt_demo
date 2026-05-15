@@ -1,0 +1,1 @@
+select * from {{ref('app_customers')}} where email not like '%@%' or email is null
